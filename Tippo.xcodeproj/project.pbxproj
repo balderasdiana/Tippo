@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA79BEDE23401B7200DAD86A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA79BEDD23401B7200DAD86A /* SceneDelegate.swift */; };
+		DA79BEE123401B7800DAD86A /* Tippo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA79BEDF23401B7800DAD86A /* Tippo.xcdatamodeld */; };
+		DA79BEE323401D0100DAD86A /* black-plus-icon-24.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = DA79BEE223401D0100DAD86A /* black-plus-icon-24.jpg.png */; };
+		DA7BF83923407B0800BE53BF /* tippologo.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7BF83823407B0800BE53BF /* tippologo.png */; };
 		DAAF723F23400E3600B6FC3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF723E23400E3600B6FC3B /* AppDelegate.swift */; };
-		DAAF724123400E3600B6FC3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF724023400E3600B6FC3B /* SceneDelegate.swift */; };
 		DAAF724323400E3600B6FC3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF724223400E3600B6FC3B /* ViewController.swift */; };
 		DAAF724623400E3600B6FC3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAAF724423400E3600B6FC3B /* Main.storyboard */; };
-		DAAF724923400E3700B6FC3B /* Tippo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAAF724723400E3700B6FC3B /* Tippo.xcdatamodeld */; };
 		DAAF724B23400E4D00B6FC3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAAF724A23400E4D00B6FC3B /* Assets.xcassets */; };
 		DAAF724E23400E4D00B6FC3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAAF724C23400E4D00B6FC3B /* LaunchScreen.storyboard */; };
 		DAAF725923400E4E00B6FC3B /* TippoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF725823400E4E00B6FC3B /* TippoTests.swift */; };
@@ -36,12 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA79BEDD23401B7200DAD86A /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DA79BEE023401B7800DAD86A /* Tipsy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tipsy.xcdatamodel; sourceTree = "<group>"; };
+		DA79BEE223401D0100DAD86A /* black-plus-icon-24.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-plus-icon-24.jpg.png"; sourceTree = "<group>"; };
+		DA7BF83823407B0800BE53BF /* tippologo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tippologo.png; sourceTree = "<group>"; };
 		DAAF723B23400E3600B6FC3B /* Tippo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tippo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAAF723E23400E3600B6FC3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DAAF724023400E3600B6FC3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DAAF724223400E3600B6FC3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DAAF724523400E3600B6FC3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DAAF724823400E3700B6FC3B /* Tippo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tippo.xcdatamodel; sourceTree = "<group>"; };
 		DAAF724A23400E4D00B6FC3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAAF724D23400E4D00B6FC3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAAF724F23400E4D00B6FC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,13 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				DAAF723E23400E3600B6FC3B /* AppDelegate.swift */,
-				DAAF724023400E3600B6FC3B /* SceneDelegate.swift */,
 				DAAF724223400E3600B6FC3B /* ViewController.swift */,
 				DAAF724423400E3600B6FC3B /* Main.storyboard */,
 				DAAF724A23400E4D00B6FC3B /* Assets.xcassets */,
 				DAAF724C23400E4D00B6FC3B /* LaunchScreen.storyboard */,
+				DA79BEE223401D0100DAD86A /* black-plus-icon-24.jpg.png */,
+				DA7BF83823407B0800BE53BF /* tippologo.png */,
+				DA79BEDD23401B7200DAD86A /* SceneDelegate.swift */,
+				DA79BEDF23401B7800DAD86A /* Tippo.xcdatamodeld */,
 				DAAF724F23400E4D00B6FC3B /* Info.plist */,
-				DAAF724723400E3700B6FC3B /* Tippo.xcdatamodeld */,
 			);
 			path = Tippo;
 			sourceTree = "<group>";
@@ -238,6 +244,8 @@
 				DAAF724E23400E4D00B6FC3B /* LaunchScreen.storyboard in Resources */,
 				DAAF724B23400E4D00B6FC3B /* Assets.xcassets in Resources */,
 				DAAF724623400E3600B6FC3B /* Main.storyboard in Resources */,
+				DA7BF83923407B0800BE53BF /* tippologo.png in Resources */,
+				DA79BEE323401D0100DAD86A /* black-plus-icon-24.jpg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,8 +272,8 @@
 			files = (
 				DAAF724323400E3600B6FC3B /* ViewController.swift in Sources */,
 				DAAF723F23400E3600B6FC3B /* AppDelegate.swift in Sources */,
-				DAAF724923400E3700B6FC3B /* Tippo.xcdatamodeld in Sources */,
-				DAAF724123400E3600B6FC3B /* SceneDelegate.swift in Sources */,
+				DA79BEE123401B7800DAD86A /* Tippo.xcdatamodeld in Sources */,
+				DA79BEDE23401B7200DAD86A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +445,6 @@
 		DAAF726923400E4E00B6FC3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SM98GLDD8;
 				INFOPLIST_FILE = Tippo/Info.plist;
@@ -455,7 +462,6 @@
 		DAAF726A23400E4E00B6FC3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SM98GLDD8;
 				INFOPLIST_FILE = Tippo/Info.plist;
@@ -596,12 +602,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		DAAF724723400E3700B6FC3B /* Tippo.xcdatamodeld */ = {
+		DA79BEDF23401B7800DAD86A /* Tippo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				DAAF724823400E3700B6FC3B /* Tippo.xcdatamodel */,
+				DA79BEE023401B7800DAD86A /* Tipsy.xcdatamodel */,
 			);
-			currentVersion = DAAF724823400E3700B6FC3B /* Tippo.xcdatamodel */;
+			currentVersion = DA79BEE023401B7800DAD86A /* Tipsy.xcdatamodel */;
 			path = Tippo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

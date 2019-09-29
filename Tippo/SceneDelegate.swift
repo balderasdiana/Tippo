@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  Tippo
+//  Tipsy
 //
 //  Created by Diana Balderas on 9/28/19.
 //  Copyright © 2019 Nebala. All rights reserved.
