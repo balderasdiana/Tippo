@@ -2,7 +2,7 @@
 
 **Tippo** is a tip calculator application for iOS.
 
-Submitted by: **Diana**
+Submitted by: **Diana Balderas**
 
 Time spent: **2** hours spent in total
 
