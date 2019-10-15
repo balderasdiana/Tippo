@@ -1,4 +1,4 @@
-# Pre-work - *Tippo*
+# *Tippo*
 
 **Tippo** is a tip calculator application for iOS.
 
