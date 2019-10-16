@@ -30,8 +30,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-- Add Settings
-- Customize Tip
+Challenges: Add a settings feature.
 
 ## License
 
